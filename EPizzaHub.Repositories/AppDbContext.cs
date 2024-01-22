@@ -24,8 +24,8 @@ namespace ePizzaHub.Repositories
             {
                 //optionsBuilder.UseSqlServer(@"data source=Shailendra\SqlExpress; initial catalog=ePizzaHubSite;integrated security=True;");
 
-                optionsBuilder.UseSqlServer(@"data source=Shailendra\SqlExpress; initial 
-                   catalog=ePizzaHubSite;persist security info=True;user id=sa;password=dotnettricks;");
+                optionsBuilder.UseSqlServer(@"data source=CHRIIZZY\SQLEXPRESS03;initial catalog=ePizzaHubSite;persist security info=True;user id=CHRIIZZY\Chris;");
+
             }
             base.OnConfiguring(optionsBuilder);
         }
