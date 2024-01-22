@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 
 namespace ePizzaHub.Repositories
-{
+{ 
     public class AppDbContext : IdentityDbContext<User, Role, int>
     {
 
